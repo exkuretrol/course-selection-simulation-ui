@@ -1,9 +1,12 @@
 import {
+  Mic,
   Laptop,
   LucideProps,
   Moon,
   SunMedium,
   Twitter,
+  Check,
+  Trash2,
   type Icon as LucideIcon,
 } from "lucide-react"
 
@@ -14,6 +17,9 @@ export const Icons = {
   moon: Moon,
   laptop: Laptop,
   twitter: Twitter,
+  check: Check,
+  trash: Trash2,
+  mic: Mic,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
